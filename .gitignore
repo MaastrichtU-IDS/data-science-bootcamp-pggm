@@ -20,7 +20,7 @@ parts/
 sdist/
 var/
 wheels/
-notebooks/reveal.js/
+slides/reveal.js/
 *.egg-info/
 .installed.cfg
 *.egg
