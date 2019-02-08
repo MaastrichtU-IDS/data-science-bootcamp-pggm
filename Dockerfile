@@ -11,20 +11,15 @@ RUN apt-get update \
 && /bin/bash Miniconda3-latest-Linux-x86_64.sh -f -b -p $CONDA_DIR \
 && rm Miniconda3-latest-Linux-x86_64.sh \
 && $CONDA_DIR/bin/conda install -y \
-keras \
 matplotlib \
 notebook \
 jupyterlab \
 numpy \
-opencv \
 pandas \
 scikit-image \
 scikit-learn \
 scipy \
 seaborn \
-sympy \
-tensorflow-mkl \
-bcolz \
 plotly \
 ipywidgets \
 && $CONDA_DIR/bin/conda update -y python \
