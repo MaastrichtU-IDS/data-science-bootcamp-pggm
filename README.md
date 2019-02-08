@@ -6,6 +6,7 @@
 
 ---
 #### Materials
+Module 1
 
 [Notebook 3](http://bit.ly/bootcamp_notebook_3)  
 [Notebook 2](http://bit.ly/bootcamp_notebook2)  
@@ -17,7 +18,8 @@
 [PGGM dummy data](http://bit.ly/PGGM_dataset)  
 [Airbnb ams data](http://bit.ly/airbnb_ams_dataset)  
 
-** Note: ** These links above will expire on 15/02/19
+Module 2 
+
 
 #### External sources
 Module 1
