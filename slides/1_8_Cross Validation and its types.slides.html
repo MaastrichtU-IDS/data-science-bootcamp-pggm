@@ -11928,7 +11928,7 @@ a.anchor-link {
 <span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
 <span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
 
-<span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;Social_Network_Ads.csv&#39;</span><span class="p">)</span>
+<span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;http://bit.ly/social_network_ads&#39;</span><span class="p">)</span>
 <span class="n">X</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">iloc</span><span class="p">[:,</span> <span class="mi">2</span><span class="p">:</span><span class="mi">4</span><span class="p">]</span>   <span class="c1"># Using 1:2 as indices will give us np array of dim (10, 1)</span>
 <span class="n">y</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">iloc</span><span class="p">[:,</span> <span class="mi">4</span><span class="p">]</span>
 
@@ -11980,40 +11980,40 @@ a.anchor-link {
       <th>0</th>
       <td>15624510</td>
       <td>Male</td>
-      <td>19</td>
-      <td>19000</td>
+      <td>19.0</td>
+      <td>19000.0</td>
       <td>0</td>
     </tr>
     <tr>
       <th>1</th>
       <td>15810944</td>
       <td>Male</td>
-      <td>35</td>
-      <td>20000</td>
+      <td>35.0</td>
+      <td>20000.0</td>
       <td>0</td>
     </tr>
     <tr>
       <th>2</th>
       <td>15668575</td>
       <td>Female</td>
-      <td>26</td>
-      <td>43000</td>
+      <td>26.0</td>
+      <td>43000.0</td>
       <td>0</td>
     </tr>
     <tr>
       <th>3</th>
       <td>15603246</td>
       <td>Female</td>
-      <td>27</td>
-      <td>57000</td>
+      <td>27.0</td>
+      <td>57000.0</td>
       <td>0</td>
     </tr>
     <tr>
       <th>4</th>
       <td>15804002</td>
       <td>Male</td>
-      <td>19</td>
-      <td>76000</td>
+      <td>19.0</td>
+      <td>76000.0</td>
       <td>0</td>
     </tr>
   </tbody>
@@ -12045,7 +12045,7 @@ a.anchor-link {
 </div></section></section><section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[5]:</div>
+<div class="prompt input_prompt">In&nbsp;[3]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">__future__</span> <span class="k">import</span> <span class="n">division</span>
@@ -12092,7 +12092,7 @@ a.anchor-link {
 </div></section></section><section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[10]:</div>
+<div class="prompt input_prompt">In&nbsp;[5]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># applying k-fold cross validation</span>
@@ -12117,10 +12117,10 @@ a.anchor-link {
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>[ 0.90322581  0.90322581  0.77419355  0.87096774  0.77419355  0.86206897
-  0.82758621  0.68965517  0.79310345  0.89655172]
-0.829477196885
-0.0671935884472
+<pre>[0.7027027  0.7027027  0.94594595 0.97222222 0.97222222 0.88888889
+ 0.86111111 0.74285714 0.82857143 0.91428571]
+0.8531510081510081
+0.10004154029821953
 </pre>
 </div>
 </div>
@@ -12140,14 +12140,14 @@ a.anchor-link {
 </div></section></section><section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[1]:</div>
+<div class="prompt input_prompt">In&nbsp;[6]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
 <span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
 <span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
 
-<span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;Social_Network_Ads.csv&#39;</span><span class="p">)</span>
+<span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;http://bit.ly/social_network_ads&#39;</span><span class="p">)</span>
 <span class="n">X</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">iloc</span><span class="p">[:,</span> <span class="mi">2</span><span class="p">:</span><span class="mi">4</span><span class="p">]</span>   <span class="c1"># Using 1:2 as indices will give us np array of dim (10, 1)</span>
 <span class="n">y</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">iloc</span><span class="p">[:,</span> <span class="mi">4</span><span class="p">]</span>
 
@@ -12164,7 +12164,7 @@ a.anchor-link {
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[1]:</div>
+<div class="prompt output_prompt">Out[6]:</div>
 
 
 
@@ -12199,40 +12199,40 @@ a.anchor-link {
       <th>0</th>
       <td>15624510</td>
       <td>Male</td>
-      <td>19</td>
-      <td>19000</td>
+      <td>19.0</td>
+      <td>19000.0</td>
       <td>0</td>
     </tr>
     <tr>
       <th>1</th>
       <td>15810944</td>
       <td>Male</td>
-      <td>35</td>
-      <td>20000</td>
+      <td>35.0</td>
+      <td>20000.0</td>
       <td>0</td>
     </tr>
     <tr>
       <th>2</th>
       <td>15668575</td>
       <td>Female</td>
-      <td>26</td>
-      <td>43000</td>
+      <td>26.0</td>
+      <td>43000.0</td>
       <td>0</td>
     </tr>
     <tr>
       <th>3</th>
       <td>15603246</td>
       <td>Female</td>
-      <td>27</td>
-      <td>57000</td>
+      <td>27.0</td>
+      <td>57000.0</td>
       <td>0</td>
     </tr>
     <tr>
       <th>4</th>
       <td>15804002</td>
       <td>Male</td>
-      <td>19</td>
-      <td>76000</td>
+      <td>19.0</td>
+      <td>76000.0</td>
       <td>0</td>
     </tr>
   </tbody>
@@ -12248,7 +12248,7 @@ a.anchor-link {
 </div></section></section><section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[2]:</div>
+<div class="prompt input_prompt">In&nbsp;[7]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Scale</span>
@@ -12264,7 +12264,7 @@ a.anchor-link {
 </div></section></section><section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[7]:</div>
+<div class="prompt input_prompt">In&nbsp;[8]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">__future__</span> <span class="k">import</span> <span class="n">division</span>
@@ -12322,14 +12322,14 @@ a.anchor-link {
 </div></section></section><section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[6]:</div>
+<div class="prompt input_prompt">In&nbsp;[9]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
 <span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
 <span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
 
-<span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;Social_Network_Ads.csv&#39;</span><span class="p">)</span>
+<span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;http://bit.ly/social_network_ads&#39;</span><span class="p">)</span>
 <span class="n">X</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">iloc</span><span class="p">[:,</span> <span class="mi">2</span><span class="p">:</span><span class="mi">4</span><span class="p">]</span>   <span class="c1"># Using 1:2 as indices will give us np array of dim (10, 1)</span>
 <span class="n">y</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">iloc</span><span class="p">[:,</span> <span class="mi">4</span><span class="p">]</span>
 
@@ -12346,7 +12346,7 @@ a.anchor-link {
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[6]:</div>
+<div class="prompt output_prompt">Out[9]:</div>
 
 
 
@@ -12381,40 +12381,40 @@ a.anchor-link {
       <th>0</th>
       <td>15624510</td>
       <td>Male</td>
-      <td>19</td>
-      <td>19000</td>
+      <td>19.0</td>
+      <td>19000.0</td>
       <td>0</td>
     </tr>
     <tr>
       <th>1</th>
       <td>15810944</td>
       <td>Male</td>
-      <td>35</td>
-      <td>20000</td>
+      <td>35.0</td>
+      <td>20000.0</td>
       <td>0</td>
     </tr>
     <tr>
       <th>2</th>
       <td>15668575</td>
       <td>Female</td>
-      <td>26</td>
-      <td>43000</td>
+      <td>26.0</td>
+      <td>43000.0</td>
       <td>0</td>
     </tr>
     <tr>
       <th>3</th>
       <td>15603246</td>
       <td>Female</td>
-      <td>27</td>
-      <td>57000</td>
+      <td>27.0</td>
+      <td>57000.0</td>
       <td>0</td>
     </tr>
     <tr>
       <th>4</th>
       <td>15804002</td>
       <td>Male</td>
-      <td>19</td>
-      <td>76000</td>
+      <td>19.0</td>
+      <td>76000.0</td>
       <td>0</td>
     </tr>
   </tbody>
@@ -12430,7 +12430,7 @@ a.anchor-link {
 </div></section></section><section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[7]:</div>
+<div class="prompt input_prompt">In&nbsp;[10]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Scale</span>
@@ -12443,25 +12443,56 @@ a.anchor-link {
 </div>
 </div>
 
-</div></section></section><section><section>from __future__ import division
-from sklearn.model_selection import StratifiedKFold
-from sklearn.metrics import accuracy_score
-from sklearn.svm import SVC
+</div></section></section><section><section>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[16]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">__future__</span> <span class="k">import</span> <span class="n">division</span>
+<span class="kn">from</span> <span class="nn">sklearn.model_selection</span> <span class="k">import</span> <span class="n">StratifiedKFold</span>
+<span class="kn">from</span> <span class="nn">sklearn.metrics</span> <span class="k">import</span> <span class="n">accuracy_score</span>
+<span class="kn">from</span> <span class="nn">sklearn.svm</span> <span class="k">import</span> <span class="n">SVC</span>
 
-strat_cv = StratifiedKFold(n_splits=10, shuffle=True, random_state=0)
-correct = 0
-total = 0
-for train_indices, test_indices in strat_cv.split(X, y):
-#     uncomment these lines to print splits
-#     print("Train Indices: {}...".format(train_indices[:4]))
-#     print("Test Indices: {}...".format(test_indices[:4]))
-#     print("Training SVC model using this configuration")
-    X_train, X_test, y_train, y_test = X[train_indices], X[test_indices], \
-                                        y[train_indices], y[test_indices]
-    clf = SVC(kernel='linear', random_state=0).fit(X_train, y_train)
-    correct += accuracy_score(y_test, clf.predict(X_test))
-    total += 1
-print("Accuracy: {0:.2f}".format(correct/total))</section></section><section><section>
+<span class="n">strat_cv</span> <span class="o">=</span> <span class="n">StratifiedKFold</span><span class="p">(</span><span class="n">n_splits</span><span class="o">=</span><span class="mi">10</span><span class="p">,</span> <span class="n">shuffle</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">random_state</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
+<span class="n">correct</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="n">total</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="k">for</span> <span class="n">train_indices</span><span class="p">,</span> <span class="n">test_indices</span> <span class="ow">in</span> <span class="n">strat_cv</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="n">X</span><span class="p">,</span> <span class="n">y</span><span class="p">):</span>
+<span class="c1">#     uncomment these lines to print splits</span>
+<span class="c1">#     print(&quot;Train Indices: {}...&quot;.format(train_indices[:8]))</span>
+<span class="c1">#     print(&quot;Test Indices: {}...&quot;.format(test_indices[:8]))</span>
+<span class="c1">#     print(&quot;Training SVC model using this configuration&quot;)</span>
+    <span class="n">X_train</span><span class="p">,</span> <span class="n">X_test</span><span class="p">,</span> <span class="n">y_train</span><span class="p">,</span> <span class="n">y_test</span> <span class="o">=</span> <span class="n">X</span><span class="p">[</span><span class="n">train_indices</span><span class="p">],</span> <span class="n">X</span><span class="p">[</span><span class="n">test_indices</span><span class="p">],</span> \
+                                        <span class="n">y</span><span class="p">[</span><span class="n">train_indices</span><span class="p">],</span> <span class="n">y</span><span class="p">[</span><span class="n">test_indices</span><span class="p">]</span>
+    <span class="n">clf</span> <span class="o">=</span> <span class="n">SVC</span><span class="p">(</span><span class="n">kernel</span><span class="o">=</span><span class="s1">&#39;linear&#39;</span><span class="p">,</span> <span class="n">random_state</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X_train</span><span class="p">,</span> <span class="n">y_train</span><span class="p">)</span>
+    <span class="n">correct</span> <span class="o">+=</span> <span class="n">accuracy_score</span><span class="p">(</span><span class="n">y_test</span><span class="p">,</span> <span class="n">clf</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">X_test</span><span class="p">))</span>
+    <span class="n">total</span> <span class="o">+=</span> <span class="mi">1</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Accuracy: </span><span class="si">{0:.2f}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">correct</span><span class="o">/</span><span class="n">total</span><span class="p">))</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Accuracy: 0.84
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div></section></section><section><section>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
