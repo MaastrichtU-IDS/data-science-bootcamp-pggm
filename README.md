@@ -20,6 +20,36 @@ Module 1
 
 Module 2 
 
+[Simple Linear Regression](https://github.com/MaastrichtU-IDS/data-science-bootcamp-pggm/blob/master/module2_notebooks/Supervised%20Regression/parametric/simple-linear-regression/main.ipynb)
+[Multiple Linear Regression](https://github.com/MaastrichtU-IDS/data-science-bootcamp-pggm/blob/master/module2_notebooks/Supervised%20Regression/parametric/multiple-linear-regression/main.ipynb)
+[Support Vector Machine Regression](https://github.com/MaastrichtU-IDS/data-science-bootcamp-pggm/blob/master/module2_notebooks/Supervised%20Regression/parametric/support-vector-regression/main.ipynb)
+[Decision Trees Regression](https://github.com/MaastrichtU-IDS/data-science-bootcamp-pggm/blob/master/module2_notebooks/Supervised%20Regression/non-parametric/decision-tree/main.ipynb)
+[K Nearest Neighbor Regression](https://github.com/MaastrichtU-IDS/data-science-bootcamp-pggm/blob/master/module2_notebooks/Supervised%20Regression/non-parametric/knn-regression/K%20Nearest%20Neighbors%20with%20Python.ipynb)
+[Regression Evaluation Metrics](https://github.com/MaastrichtU-IDS/data-science-bootcamp-pggm/blob/master/module2_notebooks/Supervised%20Regression/Evaluation/regression-metrics-sklearn.ipynb)
+[Cross Validation](https://github.com/MaastrichtU-IDS/data-science-bootcamp-pggm/blob/master/module2_notebooks/Supervised%20Regression/Evaluation/1.%20Cross%20Validation%20and%20its%20types.ipynb)
+[Logistic Regression](https://github.com/MaastrichtU-IDS/data-science-bootcamp-pggm/blob/master/module2_notebooks/Supervised%20Classification/logistic-regression/Logistic_Regression.ipynb)
+[Niave Bayesian](https://github.com/MaastrichtU-IDS/data-science-bootcamp-pggm/blob/master/module2_notebooks/Supervised%20Classification/naive-bayes/main.ipynb)
+[Support Vector Machine Classification](https://github.com/MaastrichtU-IDS/data-science-bootcamp-pggm/blob/master/module2_notebooks/Supervised%20Classification/svm/main.ipynb)
+[K Nearest Neighbor Classification](https://github.com/MaastrichtU-IDS/data-science-bootcamp-pggm/blob/master/module2_notebooks/Supervised%20Classification/k-nearest-neighbor/main.ipynb)
+[Decision Tree Classification](https://github.com/MaastrichtU-IDS/data-science-bootcamp-pggm/blob/master/module2_notebooks/Supervised%20Classification/decision-tree/main.ipynb)
+[Random Forest](https://github.com/MaastrichtU-IDS/data-science-bootcamp-pggm/blob/master/module2_notebooks/Supervised%20Classification/random-forest/main.ipynb)
+[Classification Evaluation Metrics](https://github.com/MaastrichtU-IDS/data-science-bootcamp-pggm/blob/master/module2_notebooks/Supervised%20Classification/Evaluation/classification-metrics-sklearn.ipynb)
+[Model Validation](https://github.com/MaastrichtU-IDS/data-science-bootcamp-pggm/blob/master/module2_notebooks/Supervised%20Classification/Evaluation/model_validation.ipynb)
+[Grid Search and Randomized Search](https://github.com/MaastrichtU-IDS/data-science-bootcamp-pggm/blob/master/module2_notebooks/Supervised%20Classification/Evaluation/Grid%20Search%20and%20Randomized%20Search.ipynb)
+[Model Evaluation](https://github.com/MaastrichtU-IDS/data-science-bootcamp-pggm/blob/master/module2_notebooks/Supervised%20Classification/Evaluation/model_evaluation.ipynb)
+[K Means Clustering](https://github.com/MaastrichtU-IDS/data-science-bootcamp-pggm/blob/master/module2_notebooks/Unsupervised/k-means/main.ipynb)
+[Hierarchical Clustering](https://github.com/MaastrichtU-IDS/data-science-bootcamp-pggm/blob/master/module2_notebooks/Unsupervised/hierarchical-clustering/main.ipynb)
+[Principal Component Analysis](https://github.com/MaastrichtU-IDS/data-science-bootcamp-pggm/blob/master/module2_notebooks/Unsupervised/kernel-pca/k_pca.ipynb)
+[Clustering Metrics]https://github.com/MaastrichtU-IDS/data-science-bootcamp-pggm/blob/master/module2_notebooks/Unsupervised/Evaluation/clustering-metrics-sklearn.ipynb()
+[Silhouette Distance](https://github.com/MaastrichtU-IDS/data-science-bootcamp-pggm/blob/master/module2_notebooks/Unsupervised/Evaluation/Silhoutte%20Distance%20for%20Clustering.ipynb)
+[Neural Network Introduction](https://github.com/MaastrichtU-IDS/data-science-bootcamp-pggm/blob/master/module2_notebooks/Unsupervised/Intro_to_NN.ipynb)
+
+[Custom Confusion Matrix Plot](https://github.com/MaastrichtU-IDS/data-science-bootcamp-pggm/blob/master/module2_notebooks/Supervised%20Classification/plot_confusion_matrix.ipynb)
+[Classifier Comparison Plot](https://github.com/MaastrichtU-IDS/data-science-bootcamp-pggm/blob/master/module2_notebooks/Supervised%20Classification/plot_classifier_comparison.ipynb)
+
+
+
+
 
 #### External sources
 Module 1
