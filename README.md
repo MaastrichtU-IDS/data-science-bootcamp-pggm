@@ -28,7 +28,7 @@ Module 2
 6.[Regression Evaluation Metrics](https://github.com/MaastrichtU-IDS/data-science-bootcamp-pggm/blob/master/module2_notebooks/Supervised%20Regression/Evaluation/regression-metrics-sklearn.ipynb)
 7. [Cross Validation](https://github.com/MaastrichtU-IDS/data-science-bootcamp-pggm/blob/master/module2_notebooks/Supervised%20Regression/Evaluation/1.%20Cross%20Validation%20and%20its%20types.ipynb)
 8. [Logistic Regression](https://github.com/MaastrichtU-IDS/data-science-bootcamp-pggm/blob/master/module2_notebooks/Supervised%20Classification/logistic-regression/Logistic_Regression.ipynb)
-9. [Niave Bayesian](https://github.com/MaastrichtU-IDS/data-science-bootcamp-pggm/blob/master/module2_notebooks/Supervised%20Classification/naive-bayes/main.ipynb)
+9. [Naive Bayesian](https://github.com/MaastrichtU-IDS/data-science-bootcamp-pggm/blob/master/module2_notebooks/Supervised%20Classification/naive-bayes/main.ipynb)
 10. [Support Vector Machine Classification](https://github.com/MaastrichtU-IDS/data-science-bootcamp-pggm/blob/master/module2_notebooks/Supervised%20Classification/svm/main.ipynb)
 11. [K Nearest Neighbor Classification](https://github.com/MaastrichtU-IDS/data-science-bootcamp-pggm/blob/master/module2_notebooks/Supervised%20Classification/k-nearest-neighbor/main.ipynb)
 12. [Decision Tree Classification](https://github.com/MaastrichtU-IDS/data-science-bootcamp-pggm/blob/master/module2_notebooks/Supervised%20Classification/decision-tree/main.ipynb)
