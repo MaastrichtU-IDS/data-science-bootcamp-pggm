@@ -46,6 +46,8 @@ Module 2
 
 - [Custom Confusion Matrix Plot](https://github.com/MaastrichtU-IDS/data-science-bootcamp-pggm/blob/master/module2_notebooks/Supervised%20Classification/plot_confusion_matrix.ipynb)
 - [Classifier Comparison Plot](https://github.com/MaastrichtU-IDS/data-science-bootcamp-pggm/blob/master/module2_notebooks/Supervised%20Classification/plot_classifier_comparison.ipynb)
+- [Assignment Day 1](https://github.com/MaastrichtU-IDS/data-science-bootcamp-pggm/blob/master/module2_notebooks/Assignments/Day1.ipynb)
+- [Solutions Day 1](https://github.com/MaastrichtU-IDS/data-science-bootcamp-pggm/blob/master/module2_notebooks/Assignments/Solution1.ipynb)
 
 
 
