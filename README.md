@@ -51,7 +51,7 @@ Module 2
 - [Assignment Day 2](https://github.com/MaastrichtU-IDS/data-science-bootcamp-pggm/blob/master/module2_notebooks/Assignments/Day2.ipynb)
 - [Solutions Day 2](https://github.com/MaastrichtU-IDS/data-science-bootcamp-pggm/blob/master/module2_notebooks/Assignments/Solution2.ipynb)
 - [Assignment Day 3](https://github.com/MaastrichtU-IDS/data-science-bootcamp-pggm/blob/master/module2_notebooks/Assignments/Day3.ipynb)
-
+- [Solutions Day 3](https://github.com/MaastrichtU-IDS/data-science-bootcamp-pggm/blob/master/module2_notebooks/Assignments/Solution3.ipynb)
 
 
 #### External sources
