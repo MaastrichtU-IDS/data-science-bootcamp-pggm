@@ -4,7 +4,7 @@ ENV CONDA_DIR=/condinst
 
 RUN apt-get update \
 && apt-get -y dist-upgrade \
-&& DEBIAN_FRONTEND=noninteractive apt-get install -y git wget keychain libsm6 libxext6 libxrender1 dvipng \
+&& DEBIAN_FRONTEND=noninteractive apt-get install -y git wget keychain libsm6 libxext6 libxrender1 dvipng python-pip libblas3 liblapack3 libstdc++6 python-setuptools\
 && apt-get clean \
 && rm -rf /var/lib/apt/lists/* \
 && wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh \
@@ -24,13 +24,10 @@ plotly \
 ipywidgets \
 && $CONDA_DIR/bin/conda update -y python \
 && $CONDA_DIR/bin/conda clean -a -y \
-&& $CONDA_DIR/bin/pip install --no-cache-dir sklearn-pandas isoweek pandas_summary
+&& $CONDA_DIR/bin/pip install --no-cache-dir --process-dependency-links -U turicreate h5py sklearn-pandas isoweek pandas_summary
  
 #	&& $CONDA_DIR/bin/conda update --all -y \	
 
-# We aren't running a GUI, so force matplotlib to use
-# the non-interactive "Agg" backend for graphics.
-# Run matplotlib once to build the font cache.
 ENV MATPLOTLIBRC=${HOME}/.config/matplotlib/matplotlibrc
 RUN mkdir -p ${HOME}/.config/matplotlib && \
     echo "backend      : Agg" > ${HOME}/.config/matplotlib/matplotlibrc
